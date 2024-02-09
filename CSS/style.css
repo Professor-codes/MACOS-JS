@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: url("/Image/wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+/* TOP */
+header div.nav {
+    height: 22px;
+    width: 100vw;
+    border: 0.2px solid rgba(255, 255, 255, 0.034);
+    background-color: rgba(255, 255, 255, 0.089);
+}
+
+div.nav i {
+    padding: 2px 0px 10px 6px;
+    visibility: visible;
+}
+
+/* BOTTOM */
+nav {
+    background-color: #ffffff29;
+    display: grid;
+    place-content: center;
+    position: fixed;
+    bottom: 4px;
+    border-radius: 14px;
+    backdrop-filter: blur(32px);
+}
+
+nav img {
+    height: 58px;
+    margin: 0 1px;
+    transition-duration: 0.3s;
+}
+
+.container {
+    display: flex;
+    padding: 3px 7px;
+    transition-duration: 0.6s;
+}
